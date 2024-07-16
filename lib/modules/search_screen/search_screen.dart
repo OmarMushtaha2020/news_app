@@ -38,6 +38,7 @@ controller: searchController,
 
                   prefixIcon: Icon(Icons.search,size: 20.h,),
                 ),
+                
                 onChanged: (value) {
                 HomeCubit.get(context).get_search(value);
                   },
